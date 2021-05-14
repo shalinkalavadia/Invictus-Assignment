@@ -1,0 +1,96 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+
+  background: linear-gradient(rgb(31, 30, 30), rgb(59, 58, 58));
+  background-color: rgb(71, 70, 70);
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+label {
+  color: rgb(77, 73, 73);
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  margin-top: 10vh;
+  box-shadow: 2px 5px 10px 10px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+}
+
+@media (max-width: 450px) {
+  .wrapper {
+    width: 95vw;
+  }
+}
+
+.container {
+  display: grid;
+  grid-auto-flow: row;
+  gap: 30px;
+  background-color: rgb(228, 222, 222);
+  background: linear-gradient(rgb(228, 222, 222), rgb(219, 214, 214));
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 20px 10px;
+  justify-content: center;
+}
+
+.containerTop {
+  display: flex;
+  justify-content: end;
+  background-color: rgb(255, 107, 96);
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  padding: 15px 4px;
+  font-size: 0.9em;
+  padding-right: 15px;
+  border-bottom: 4px solid rgb(77, 72, 72);
+}
+
+.inputsDiv {
+  display: grid;
+  grid-auto-flow: row;
+  justify-content: center;
+}
+
+.buttonsDiv {
+  display: flex;
+  justify-self: center;
+}
+
+.error {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(245, 179, 179);
+}
+
+p {
+  font-size: 0.8em;
+  justify-self: end;
+  color: rgb(77, 73, 73);
+}
+
+input {
+  margin-left: 10px;
+}
